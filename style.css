@@ -35,7 +35,9 @@ h1{
 
 
 
-.container{
+
+
+/* .container{
     height: 400px;
     width: 400px;
     border: 2px solid black;
@@ -56,5 +58,37 @@ h1{
     font-size: 50px;
 }
 h1{
+    text-align: center;
+} */
+
+
+
+
+
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(187, 172, 172);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    /* row-gap:10px ;
+    column-gap: 10px; */
+    grid-gap: 10px;
+    /* justify-content:center; */
+    place-items:c ;
+}
+
+#one{
+    /* grid-column: 1/4;
+     */
+     /* justify-self: end; */
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 82, 114);
+    border: 2px solid black;
     text-align: center;
 }
