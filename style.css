@@ -94,7 +94,7 @@ h1{
 } */ 
 
 
-h1{
+/* h1{
     text-align: center;
 }
 
@@ -118,5 +118,36 @@ h1{
     
     to{
         font-size:40px;
+    }
+} */
+
+
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width: 400px){
+    h1{
+        background-color: red;
+    }
+}
+
+@media (min-width:400px){
+    h1{
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px ) {
+    h1{
+        background-color: pink;
+    }
+    
+}
+@media (orientation: landscape){
+    h1{
+        background-color: magenta;
+        color: white;
     }
 }
